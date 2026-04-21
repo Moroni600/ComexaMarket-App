@@ -22,6 +22,9 @@ jobs:
         with:
           node-version: '20'
       
+      - name: List files (ver qué hay)
+        run: ls -la
+      
       - name: Install Capacitor
         run: npm install -g @capacitor/core @capacitor/cli @capacitor/android
       
